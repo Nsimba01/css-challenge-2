@@ -1,0 +1,185 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titre {
+
+    font-family: "Atkinson Hyperlegible Next", serif;
+
+    color: white;
+
+    display: inline-block;
+
+    padding-left: 14%;
+}
+
+
+.dimensions {
+
+    position: relative;
+
+
+}
+
+img:nth-of-type(odd) {
+
+
+    opacity: 0.5;
+}
+
+
+.dimension-title {
+
+    font-family: "Atkinson Hyperlegible Next", serif;
+
+    color: white;
+
+    position: absolute;
+
+    left: 70%;
+
+    top: 30%;
+
+
+
+}
+
+
+.button-live-demo {
+
+    border: 1px solid rgb(20, 19, 19);
+
+    width: 10%;
+
+    position: absolute;
+
+    border-radius: 3%;
+
+    left: 70%;
+
+    top: 50%;
+
+    padding: 2%;
+
+    background-color: rgb(123, 123, 132);
+
+    transition: background-color 4s;
+
+
+}
+
+.button-live-demo:hover {
+
+
+    background-color: brown;
+
+
+}
+
+
+
+.editorial {
+
+
+    position: relative;
+
+
+}
+
+.logo {
+
+    background-color: rgb(236, 107, 107);
+
+    width: 30%;
+
+    padding: 2%;
+
+    position: absolute;
+
+    position: fixed;
+
+    top: 10%;
+
+
+
+
+}
+
+.galleries {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-top: 10%;
+
+
+
+
+
+
+
+}
+
+img {
+
+    display: inline-block;
+
+    margin-bottom: 4%;
+
+    max-width: 100%;
+
+    height: auto;
+
+
+}
+
+
+
+
+@media (min-width:360px) and (max-width:1024px) {
+
+    .dimension-title {
+
+        font-family: "Atkinson Hyperlegible Next", serif;
+
+        color: white;
+
+        position: absolute;
+
+        left: 47%;
+
+        top: 10%;
+
+
+
+    }
+
+    .button-live-demo {
+
+        border: 1px solid rgb(20, 19, 19);
+
+        width: 18%;
+
+        position: absolute;
+
+        border-radius: 3%;
+
+        display: inline-block;
+
+        text-align: center;
+
+
+        padding: 1%;
+
+
+    }
+
+
+
+}
